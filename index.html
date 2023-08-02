@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Vainntn - Portafolio de Valentín Acosta</title>
+    <meta name="author" content="Valentín Acosta">
+    <meta name="description" content="Portafolio de Valentín Acosta bajo el nombre de Vainntn">
+    <meta name="keywords" content="Portafolio, programación, trabajos, estudios">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="website icon" type="image/png" href="img/logo.png">
+    <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
+</head>
+<style>
+    html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    padding: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    header img {
+        width: 50%;
+    }
+}
+
+.hero {
+    background: #C5C5C5 url(../cabezal.jpg) no-repeat right;
+    height: 400px;
+}
+
+section{
+    margin: 50px 0;
+}
+
+#biografia, #conocimientos, #educacion{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#biografia ul{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+
+footer {
+    background: #DADBD6 url(../fondo.jpg) no-repeat center center fixed;
+    padding-top: 500px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    padding-top: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+    }
+    nav ul li {
+        flex: 1;
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+    border-left: 6px solid #F11A7B;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+h2 {
+    color: #F11A7B;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.table th{
+    background-color: #F11A7B;
+    color: white;
+}
+
+img {
+    transition: transform 0.3s ease;
+  }
+
+img:hover {
+    transform: scale(1.05);
+  }
+
+</style>
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col-md-4 col-lg-2">
+                <img src="logo.png" alt="" class="img-fluid">
+                <h1 class="col-lg-2 align-self-start px-3">Vainntn</h1>
+            </div>
+            <nav class="col-md-8 offset-lg-2 m-lg-5 m-md-1">
+                <ul>
+                    <li><a href="#biografia" class="btn btn-dark d-flex">Biografía</a></li>
+                    <li><a href="#experiencia" class="btn btn-dark d-flex">Experiencia</a></li>
+                    <li><a href="#conocimientos" class="btn btn-dark d-flex">Conocimientos</a></li>
+                    <li><a href="#habilidades" class="btn btn-dark d-flex">Habilidades</a></li>
+                    <li><a href="#educacion" class="btn btn-dark d-flex">Educación</a></li>
+                    <li><a href="#perfiles" class="btn btn-dark d-flex">Perfiles</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+
+        </div>
+        <section id="biografia" class="container-fluid section">
+            <div class="row">
+                <h1 class="col-md-3 col-lg-2 align-self-start">
+                    Biografía
+                </h1>
+                <article class="col-md-9 col-lg-9">
+                    <p>
+                        Soy Valentín Acosta, nací en Uruguay con una pasión innata por las computadoras desde temprana
+                        edad. Mis días de infancia y adolescencia estuvieron llenos de aventuras digitales mientras
+                        exploraba una amplia gama de juegos con amigos en la PC, cuando aún el Gaming no era algo
+                        resaltable en el país.
+                    </p>
+                    <p>
+                        Mi verdadera fascinación por la programación surgió en 2020, gracias a un videojuego. Sin
+                        embargo, fue en 2022, tras dejar mi carrera de Contador Público en 2021, que decidí seguir mi
+                        vocación y estudiar programación.
+                    </p>
+                    <p>
+                        Comencé mi formación en Ingeniería Informática en la Universidad Católica del Uruguay y
+                        posteriormente dejé la carrera para comenzar a estudiar para Analista en Tecnologías de la
+                        Información en la Universidad ORT del Uruguay.
+                    </p>
+                    <p>
+                        Hoy en día, estoy dedicado a seguir creciendo como profesional en el campo de la informática,
+                        emocionado por las oportunidades que el futuro me depara y cómo puedo contribuir con mis
+                        habilidades y conocimientos en el mundo de la tecnología.
+                    </p>
+                    <p>
+                        Además de mis estudios, me encuentro trabajando en el ámbito administrativo desde el año 2023.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section id="experiencia" class="container-md section">
+            <div class="row">
+                <h1 class="col-lg-3 align-self-start">
+                    Experiencia
+                </h1>
+                <article class="col-lg-10">
+                    <div class="row">
+                        <div class="col-lg-6 mb-lg-5 order-lg-last mt-3 mt-lg-0">
+                            <h2>Administrativo en empresa: Alberto Acosta
+                            </h2>
+                            <p>En el mes de Abril del año 2023, comencé a trabajar como Administrativo para una empresa
+                                de mantenimiento.
+                            </p>
+                            <p>
+                                Mi principal labor es realizar los pagos de la empresa, creación de facturas y todo lo
+                                similar. Además, ofrezco mi ayuda en caso de ser necesario para otros apartados
+                                informáticos.
+                            </p>
+                            <p>
+                                Además, ofrezco mi ayuda en caso de ser necesario para otros apartados informáticos.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 order-lg-first">
+                            <img src="administracion.jpg" alt="" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-10">
+                    <div class="row">
+                        <div class="col-lg-6 order-lg-last">
+                            <a target="_blank" href="https://decomarbleconstrucciones.com/"><img src="PrimerTrabajo.png" alt="" class="img-fluid rounded"></a>
+                        </div>
+                        <div class="col-lg-6 mb-lg-5 order-lg-first mt-3 mt-lg-0">
+                            <h2>Primer trabajo: Página web para DecoMarble Construcciones
+                            </h2>
+                            <p>Fui contactado por una persona encargada en realizar diversos trabajos relacionados al yeso, acabados, detalles, etc para la construcción de su página web.
+                            </p>
+                            <p>
+                               Fue un trabajo realizado en dos partes, una sin conocimiento de Bootstrap y otra con, siendo esta ultima el resultado.
+                            </p>
+                            <p>
+                                Además de esto, fue realizado un logo junto con el cliente para la página web.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="conocimientos" class="container-fluid section">
+            <div class="row">
+                <h1 class="col-md-4 col-lg-3 col-xl-2 align-self-start">
+                    Conocimientos
+                </h1>
+                <article class="col-md-9 col-lg-9">
+                    <p>
+                        He adquirido experiencia en diversos lenguajes de programación como JavaScript,
+                        C# y otros. Mi objetivo es convertirme en un profesional capacitado para desempeñarme
+                        eficazmente en el ámbito de la programación.
+                    </p>
+                    <p>
+                        Tengo conocimientos en lenguajes como SQL y Python, así como experiencia en el
+                        alojamiento de sitios web en plataformas como Somee, AWS y Microsoft Azure, utilización de
+                        Frameworks como Ionic y todo lo necesario para la creación de aplicaciones móviles. Además,
+                        utilizo
+                        herramientas como Trello y Astah para una gestión efectiva de proyectos.
+                    </p>
+                    <p>Como pasatiempo y complemento a mis habilidades en programación, también poseo certificados y
+                        conocimientos en el manejo de software como Excel, Word, Office e instalación de sistemas
+                        operativos. Además, cuento con experiencia en el hardware de los equipos, incluyendo el
+                        ensamblaje, mantenimiento y reparaciones sencillas de ordenadores.</p>
+                </article>
+            </div>
+        </section>
+        <section id="habilidades" class="container section">
+            <div class="row">
+                <h1 class="col-lg-3 align-self-start">
+                    Habilidades
+                </h1>
+                <article class="col-md-6 col-lg-10">
+                    <div class="row">
+                        <div class="col-lg-6 mb-lg-5 order-lg-last mt-3 mt-lg-0">
+                            <h2>C#
+                            </h2>
+                            <p>Tuve mi primer acercamiento en este lenguaje en el año 2023, durante el segundo semestre
+                                de la carrera de Analista en Tecnologías de la Información.
+                            </p>
+                            <p>
+                                Desde un primer momento me sentí muy cómodo y fascinado con el lenguaje, principalmente
+                                con su cantidad de funciones.
+                            </p>
+                            <p>
+                                Realicé numerosos trabajos en este lenguaje, incluido un proyecto utilizando MVC.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 order-lg-first">
+                            <img src="csharp.jpg" alt="" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-6 col-lg-6 mt-3 mt-lg-0">
+                    <h2>HTML, CSS y JS</h2>
+                    <img src="htmlcssjs.png" alt="" class="img-fluid rounded">
+                    <p>Esta combinación fue la primera con la que tuve contacto en el ámbito de desarrollo web, habiendo
+                        tomado gran habilidad con JavaScript, aunque luego obtendría más conocimiento en general.
+                    </p>
+                </article>
+                <article class="col-lg-6 mt-3 mt-lg-0">
+                    <h2>Python y SQL</h2>
+                    <img src="pythonsql.jpg" alt="" class="img-fluid rounded">
+                    <p>Son a su vez lo más nuevo y antiguo que he visto, siendo SQL lo más reciente, con lo que me
+                        encuentro obteniendo conocimiento hoy en día. Por otro lado, Python, fue el primer lenguaje que
+                        me enseñó, el que me parece muy interesante pero no he tenido la oportunidad de expandir mi
+                        conocimiento en él desde hace un tiempo.
+                    </p>
+                </article>
+                <article class="col-md-6 col-lg-10">
+                    <div class="row">
+                        <div class="col-lg-6 mb-lg-5 order-lg-last mt-3 mt-lg-0">
+                            <h2>Extras
+                            </h2>
+                            <p>A lo largo de mi etapa de estudiante he podido trabajar con Trello y Astah, los cuales me
+                                sirvieron para organizar de mejor manera mis tareas y obtener gran habilidad con
+                                estos.
+                            </p>
+                            <p>
+                                Por otro lado, poseo conocimientos en el ámbito de alojamiento de sitios web en
+                                distintas plataformas, y a su vez, he trabajado en la creación de aplicaciones móviles,
+                                principalmente para Android.
+                            </p>
+                            <p>
+                                Durante el último tiempo aprendí bastante sobre Bootstrap para la creación de páginas
+                                web Responsive y a su vez del framework Ionic para la creación de aplicaciones móviles.
+                            </p>
+                            <p>
+                                Finalmente, debido a mi experiencia en el rubro administrativo, he conseguido
+                                experiencia en el uso del paquete completo de OFFICE, además de todo lo relacionado al
+                                mantenimiento de ordenadores, tanto software como hardware.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 order-lg-first">
+                            <img src="Extras.png" alt="" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="educacion" class="container-fluid section">
+            <div class="row">
+                <h1 class="col-md-3 col-lg-2 align-self-start">
+                    Educación
+                </h1>
+                <div class="col-md-4 col-lg-5">
+                    <h2>Educación completada</h2>
+                    <ul>
+                        <li>
+                            Bachillerato Social - Económica
+                        </li>
+                        <li>
+                            Adults 2 Cutting Edge Elementary
+                        </li>
+                        <li>
+                            Introducción al Análisis de Datos
+                        </li>
+                        <li>
+                            Introducción a la programación con Python
+                        </li>
+                        <li>
+                            Estructuras de datos en Python
+                        </li>
+                        <li>
+                            C# Curso Completo para ser programador .NET
+                        </li>
+                        <li>
+                            SQL - Curso completo de Bases de Datos - de 0 a Avanzado
+                        </li>
+                        <li>
+                            Desarrollo web desde cero: HTML5, CSS3, JavaScript
+                        </li>
+                        <li>Jóvenes a Programar Fase 1</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-5">
+                    <h2>Educación en curso</h2>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Año</th>
+                            <th>Título</th>
+                            <th>Institución</th>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td>Analista en Tecnologías de la Información </td>
+                            <td>Universidad ORT</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td>Adults Online 2 (intensive) </td>
+                            <td>Anglo</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td>Jóvenes a Programar Fase 2</td>
+                            <td>Ceibal</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section id="perfiles" class="container-md section">
+            <div class="row justify-content-around">
+                <h1 class="col-12">
+                    Perfiles sociales
+                </h1>
+                <article class="col-6 col-md-2">
+                    <h2 class="text-center">Github</h2>
+                    <img src="github.jpg" alt="" class="img-fluid">
+                    <p class="text-center">
+                        Puedes encontrar varios de mis trabajos en Github.
+                    </p>
+                    <p class="text-center"><a href="https://github.com/vainntn" class="btn btn-dark"
+                            target="_blank">Perfil</a></p>
+                </article>
+                <article class="col-6 col-md-2">
+                    <h2 class="text-center">LinkedIn</h2>
+                    <img src="linkedin.jpg" alt="" class="img-fluid">
+                    <p class="text-center">
+                        Puedes ver mi perfil profesional en LinkedIn.
+                    </p>
+                    <p class="text-center"><a href="https://www.linkedin.com/in/valentin-acosta-512uy/"
+                            class="btn btn-dark" target="_blank">Perfil</a></p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Si puedes imaginarlo puedes programarlo. <cite>Alejandro Taboada</cite></p>
+    </footer>
+</body>
+<script>
+    ScrollReveal().reveal('.section', {
+    delay: 200,
+    distance: '100px',
+    origin: 'top',
+    interval: 150
+  });
+</script>
+
+</html>
